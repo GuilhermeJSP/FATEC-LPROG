@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int numero = 42;      // Uma vari·vel inteira comum
+    int numero = 42;      // Uma vari√°vel inteira comum
     int *ponteiro = &numero;   // ponteiro recebe o ENDERECO DE 'numero'
 
     printf("int numero = 42\n");
@@ -14,8 +14,8 @@ int main() {
 
     printf("\n--- ALTERANDO VIA PONTEIRO ---\n");
 
-    printf("\n*ponteiro = 100; // Altera o VALOR no endereÁo apontado por ponteiro\n");
-    *ponteiro = 100; // Altera o VALOR no endereÁo apontado por ponteiro
+    printf("\n*ponteiro = 100; // Altera o VALOR no endere√ßo apontado por ponteiro\n");
+    *ponteiro = 100; // Altera o VALOR no endere√ßo apontado por ponteiro
 
     printf("Novo valor de 'numero':     %d\n", numero);
 
